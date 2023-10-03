@@ -1,7 +1,10 @@
 # CoinFlip
-Coin flip GUI python project
+Simple Coin flip WebApp project :
 
 https://alex-syvitski.github.io/CoinFlip/
+
+
+started as a python project,
 
 
 
