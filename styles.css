@@ -22,13 +22,15 @@ body {
         width: 50%; /* Use 50% of the screen width */
         margin: 20px auto; /* Center the app and add some margin on top/bottom */
     }
-   @media (min-width: 1025px) { /* This will apply for screens wider than 1025px */
+}
+
+@media (min-width: 1025px) { /* This will apply for screens wider than 1025px */
     .app {
         width: 60%; /* Use 60% of the screen width */
         margin: 20px auto; /* Center the app and add some margin on top/bottom */
     }
 }
-}
+
 .button {
     background-color: #007BFF;
     color: #FFFFFF;
@@ -45,5 +47,3 @@ body {
 .button:hover {
     background-color: #0056b3;  /* Darker shade for hover */
 }
-
-
