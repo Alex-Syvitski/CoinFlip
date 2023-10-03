@@ -34,8 +34,8 @@ body {
 .button {
     background-color: #007BFF;
     color: #FFFFFF;
-    padding: 20px 40px;  /* Larger padding for a bigger button */
-    font-size: 24px;     /* Bigger font size */
+    padding: 30px 60px;  /* Larger padding for a bigger button */
+    font-size: 28px;     /* Bigger font size */
     border-radius: 12px; /* Adjusted border-radius */
     border: none;
     cursor: pointer;
