@@ -16,27 +16,52 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles for larger screens */
-@media (min-width: 768px) { /* This will apply for screens wider than 768px */
+/* Styles for larger screens (tablets, small laptops) */
+@media (min-width: 768px) {
     .app {
-        width: 50%; /* Use 50% of the screen width */
-        margin: 20px auto; /* Center the app and add some margin on top/bottom */
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .button {
+        padding: 25px 50px;
+        font-size: 26px;
     }
 }
 
-@media (min-width: 1025px) { /* This will apply for screens wider than 1025px */
+/* Styles for large screens (large laptops, desktops) */
+@media (min-width: 1025px) {
     .app {
-        width: 60%; /* Use 60% of the screen width */
-        margin: 20px auto; /* Center the app and add some margin on top/bottom */
+        width: 60%;
+    }
+
+    .button {
+        padding: 30px 60px;
+        font-size: 28px;
+    }
+}
+
+/* Styles for 2K and larger screens */
+@media (min-width: 2048px) {
+    .app {
+        width: 70%;
+        margin: 30px auto;
+        padding: 30px;
+    }
+
+    .button {
+        padding: 40px 80px;
+        font-size: 34px;
+        border-radius: 15px;
     }
 }
 
 .button {
     background-color: #007BFF;
     color: #FFFFFF;
-    padding: 30px 60px;  /* Larger padding for a bigger button */
-    font-size: 28px;     /* Bigger font size */
-    border-radius: 12px; /* Adjusted border-radius */
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 12px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
