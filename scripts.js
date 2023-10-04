@@ -4,6 +4,8 @@ const coinImage = document.getElementById('coinImage');
 const coinSound = new Audio('https://raw.githubusercontent.com/Alex-Syvitski/CoinFlip/main/mouse-click.mp3');
 
 function flipCoin() {
+    coinSound.play(); // Play the coin sound
+
     coinImage.classList.add('coin-flip-animation');
     
     setTimeout(() => {
@@ -15,6 +17,7 @@ function flipCoin() {
         coinImage.classList.remove('coin-flip-animation');
     }, 500);
 }
+
 
 
 // Initial flip
