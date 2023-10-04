@@ -67,7 +67,16 @@ body {
     animation: flipCoin 1s forwards;
 }
 
+#coinImage {
+    width: 256px; /* This matches the width you initially provided */
+    height: 256px; /* Keeps the coin round */
+    display: block; /* Ensures the image takes up its own line */
+    margin: 0 auto 20px auto; /* Centers the image and adds a 20px margin below it */
+}
+
 .button {
+    display: block;
+    margin: 0 auto;
     background-color: #007BFF;
     color: #FFFFFF;
     padding: 20px 40px;
