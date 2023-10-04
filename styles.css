@@ -56,6 +56,17 @@ body {
     }
 }
 
+/* coin flip animation */
+@keyframes flipCoin {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.coin-flip-animation {
+    animation: flipCoin 1s forwards;
+}
+
 .button {
     background-color: #007BFF;
     color: #FFFFFF;
